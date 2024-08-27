@@ -1,0 +1,64 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  font-family: "VT323", monospace;
+  overflow: auto; /* Prevent scrolling */
+}
+
+.background-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: 1; /* Ensure the video is behind other content */
+  filter: brightness(60%);
+}
+
+.team-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  position: relative; /* Ensure the team container is properly positioned */
+  z-index: 2;
+}
+
+.team-member {
+  background: rgba(255, 255, 255, 0.8);
+  border: 2px solid #000;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  margin: 20px;
+  padding: 20px;
+  text-align: center;
+  font-family: "VCR OSD Mono", monospace;
+  color: #000;
+}
+
+.team-member img {
+  width: 100px;
+  height: auto;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h2 {
+  font-family: "Press Start 2P", cursive;
+  font-size: 24px;
+  margin: 10px 0;
+  color: #ecfff2;
+  text-shadow: 2px 2px #000000;
+}
+
+.team-member p {
+  font-family: "VCR OSD Mono", monospace;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}

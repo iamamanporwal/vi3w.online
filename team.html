@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meet the Team</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      /* Inline styles for the Meet the Team page */
+      .team-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        margin: 20px;
+        position: relative; /* Ensure the team container is properly positioned */
+        z-index: 2;
+      }
+
+      .team-member {
+        background: rgba(255, 255, 255, 0.8);
+        border: 2px solid #000;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        width: 300px;
+        margin: 20px;
+        padding: 20px;
+        text-align: center;
+        font-family: "VT323", monospace;
+        color: #000;
+      }
+
+      .team-member img {
+        width: 100px;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 10px;
+      }
+
+      .team-member h2 {
+        font-family: "Press Start 2P", cursive;
+        font-size: 24px;
+        margin: 10px 0;
+        color: #22fb63;
+      }
+
+      .team-member p {
+        font-size: 16px;
+        line-height: 1.5;
+        color: #333;
+      }
+    </style>
+  </head>
+  <body>
+    
+    <video autoplay muted loop class="background-video">
+      <source src="background.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    
+    <div class="team-container">
+        
+      <div class="team-member">
+        <img src="https://media.licdn.com/dms/image/v2/C4E03AQFTBEI1P0Daqw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1631126001857?e=1730332800&v=beta&t=s9BshEslMnMLVGRvLd-YB8s_gUWT2FxmVqH-sqvOMuk" alt="Aman" />
+        <h2>AMAN PORWAL</h2>
+        <p class="yes">
+          <b>Founder & CEO</b><br> B.Tech in Robotics and Automation, Worked as Founding AI
+          Engineer & Previously Research Fellow at Manastu Space.<br> E –
+          aman07porwal@gmail.com <br> P - +91 8308141311
+        </p>
+      </div>
+      <div class="team-member">
+        <img src="https://media.licdn.com/dms/image/v2/D5603AQHq9CzME9wA5Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1721821090967?e=1730332800&v=beta&t=B_Ssey7eYrbksQVfbCfkjbGGlCmYzXlPeKD2iGK71ZI" alt="Akanksha" />
+        <h2>AKANKSHA PORWAL</h2>
+        <p class="yes">
+        <b>COO & CFO</b><br> Program Management, Revenue Growth and Business Strategy at
+          Zomato and Jodo <br> MBA - Liverpool Business School <br> CS Engineer from Mumbai University.
+          <br> E - akankshajpporwal1995@gmail.com P - +91
+          8767621910
+        </p>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
